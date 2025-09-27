@@ -6,7 +6,7 @@ This is a lightweight academic website for Myron Sukhanov. It uses plain HTML, C
 
 - `index.html` — About/landing page
 - `projects.html` — Research & Projects
-- `education.html` — Education
+- `publications.html` — Publications & writing
 - `cv.html` — CV viewer (expects a PDF at `assets/cv/cv.pdf`)
 - `contact.html` — Contact & links
 - `assets/css/styles.css` — Global styles
