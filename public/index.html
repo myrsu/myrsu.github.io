@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Myron Sukhanov — Academic Profile</title>
+    <meta name="description" content="Minimal academic website for Myron Sukhanov: About, Projects, Publications, CV, and Contact.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Myron Sukhanov</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a class="nav-link" href="index.html">About</a></li>
+            <li><a class="nav-link" href="projects.html">Projects</a></li>
+            <li><a class="nav-link" href="publications.html">Publications</a></li>
+            <li><a class="nav-link" href="cv.html">CV</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-layout">
+            <div class="hero-text">
+              <h1>Hi, I’m Myron.</h1>
+              <p class="lede">3rd year BSc Computer Science (AI) student at the University of Sheffield, aspiring to pursue an MSc in AI at Oxford or Cambridge. I enjoy building scalable ML systems and exploring ideas at the frontier of AI.</p>
+              <div class="hero-cta">
+                <a class="button primary" href="assets/cv/cv.pdf" target="_blank" rel="noopener">Download CV</a>
+                <a class="button" href="mailto:myron@example.com">Email</a>
+                <a class="button" href="https://github.com/myrsu" target="_blank" rel="noopener">GitHub</a>
+                <a class="button" href="https://www.linkedin.com/in/" target="_blank" rel="noopener">LinkedIn</a>
+              </div>
+            </div>
+            <div class="hero-media">
+              <img src="https://via.placeholder.com/360x360.png?text=Headshot" alt="Headshot of Myron Sukhanov" width="360" height="360">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container reading-width">
+          <h2>About me</h2>
+          <p>
+            I’m a computer science student focused on AI and systems. I’m currently on track for a First-Class Honours (74% to date). Previously, I studied physics in Kyiv and worked on HPC-based simulations—experience that shaped my interest in scalable machine learning.
+          </p>
+          <p>
+            My recent work spans distributed training, retrieval-augmented generation, and practical ML applications. I value clarity, rigor, and building tools that others can use.
+          </p>
+        </div>
+      </section>
+
+      <section class="highlights">
+        <div class="container">
+          <h2>Selected highlights</h2>
+          <ul class="card-grid">
+            <li class="card">
+              <h3>Distributed ML research — University of Cambridge</h3>
+              <p>Developed Scanalyser for efficient distributed training on HPC; achieved ~10× speedups without loss in model performance.</p>
+              <a class="text-link" href="projects.html#scanalyser">See details</a>
+            </li>
+            <li class="card">
+              <h3>AI Research Intern — The Innovation Game</h3>
+              <p>Explored reinforcement learning for self-improving reasoning agents; studied RAG + chain-of-thought prompting with large language models.</p>
+              <a class="text-link" href="projects.html#innovation-game">See details</a>
+            </li>
+            <li class="card">
+              <h3>LLM x Law Hackathon — King’s College, Cambridge</h3>
+              <p>Built a RAG-based legal contract helper using Google Vertex AI and Streamlit; practical NLP for real users.</p>
+              <a class="text-link" href="projects.html#llm-law">See details</a>
+            </li>
+            <li class="card">
+              <h3>ELI Beamlines — Research Internship</h3>
+              <p>Simulated coherent radiation emission on an HPC cluster; contributed Fourier analysis to a published physics paper.</p>
+              <a class="text-link" href="projects.html#eli-beamlines">See details</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2>Skills & tools</h2>
+          <ul class="chips">
+            <li>Python</li>
+            <li>PyTorch</li>
+            <li>Distributed Training</li>
+            <li>HPC</li>
+            <li>CUDA (basics)</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Myron Sukhanov</p>
+        <nav aria-label="Footer">
+          <a href="index.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="cv.html">CV</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+
